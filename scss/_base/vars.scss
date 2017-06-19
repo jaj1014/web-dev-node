@@ -1,0 +1,38 @@
+// colors -- demo, but can be changed
+$light-grey: #f9f8f8;
+$med-grey: #bfbfbf;
+$med-grey-light: #dfdfdf;
+$dark-grey: #6B7F82;
+$dark-grey-light: #B4BEC0;
+$teal: #7bcdac;
+$teal-light: #BCE5DC;
+$purple: #7B7DCD;
+$purple-light: #BDBEE6;
+$red: #D33F49;
+$red-light: #E89EA3;
+
+// font -- demo, but can be changed
+$header: 'Baloo', cursive;
+$copy: 'Lato', sans-serif;
+
+// font weight -- demo but can be changed
+$font-weight: 400;
+
+// font size -- demo but can be changed
+$xs: 0.75rem; // base 12px
+$s: 0.875rem; // base 14px
+$root: 1rem;  // base 16px
+$m: 1.25rem;  // base 20px
+$l: 1.75rem;  // base 28px
+$xl: 2.5rem;  // base 40px
+
+// text highlight -- demo but can be changed
+::selection {
+  background: $purple;
+  color: $light-grey;
+}
+
+::-moz-selection {
+  background: $purple;
+  color: $light-grey;
+}
